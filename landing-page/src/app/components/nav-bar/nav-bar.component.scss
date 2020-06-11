@@ -1,0 +1,49 @@
+.contenedor{
+    background: #0000007a;
+    color: white;
+    width: 100%;
+    display: inline-flex;
+    
+
+    .title{
+        flex-grow: 10;
+        display: flex;
+        place-content: center;
+        justify-content: left;
+    margin-left: 10%;
+        h3{
+            align-self: center;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: fantasy;
+            margin: 0px;
+        }
+    }
+
+    .sin-mrg{
+        h3{
+            margin: 0px;
+            font-size: 30px;
+            font-family: initial;
+        }
+    }
+
+    .buttoni{
+        font-size: 31px;
+        font-weight: bold;
+        font-variant: all-petite-caps;    
+    
+    }
+    .subcontenedor{
+        float: right;
+        display: flex;
+        position: relative;
+        margin-right: 70px;
+        flex-grow: 0;
+    }
+
+}
+.menus{
+    color: black !important;
+    font-size: 20px;
+}

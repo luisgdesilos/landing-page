@@ -1,0 +1,22 @@
+.inputs{
+    border: 1px solid #dedede;
+    box-shadow: 1px 1px 1px #dedede;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.aceptar{
+    width: 100%;
+    background: #2b377b;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    font-size: 25px;
+}
+.cancel{
+    position: relative;
+    bottom: 1em;
+    float: right;
+}

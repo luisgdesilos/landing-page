@@ -1,0 +1,20 @@
+<div class="contenedor">
+    <button mat-button class="cancel" (click)='cancel()'>X</button>
+    <h1>Apply Now</h1>
+    <p>Enter your info, and then download the Car-raid app to create your driver profile</p>
+    <form [formGroup]="userForm" (submit)="onSubmit()">
+        <input formControlName="name" class="inputs" type="text" placeholder="First name">
+        <input formControlName="lastName" class="inputs" type="text" placeholder="Last name">
+        <input formControlName="email" class="inputs" type="text" placeholder="Email address">
+        <input formControlName="city" class="inputs" type="text" placeholder="City">
+        <input formControlName="phone" class="inputs" type="number" placeholder="Phone">
+        <input type="checkbox" id="agree" name="" value="">
+        <label for="agree"> I agree to the <a href="#">Car-raid terms</a></label>
+        <br>
+
+        <button class="aceptar" type="submit">Register</button>
+    </form>
+</div>
+
+
+

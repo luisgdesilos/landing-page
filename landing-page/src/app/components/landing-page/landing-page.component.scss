@@ -1,0 +1,44 @@
+.contenedor {
+  .get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 18em;
+    .subcontenedor1 {
+      display: inline-block;
+      text-align: center;
+      /* padding: 80px; */
+      display: inline-block;
+      text-align: center;
+      padding-left: 80px;
+      padding-right: 80px;
+      .title {
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+        font-family: inherit;
+        text-shadow: 1px 1px 1px #123;
+      }
+    }
+    .subcontenedor2 {
+      display: inline-block;
+      //width: 50%;
+      button {
+        font-size: 40px;
+        height: 60px;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 964px){
+  .mb-4{
+    h1{
+      font-size: 30px !important;
+    }
+  }
+}
