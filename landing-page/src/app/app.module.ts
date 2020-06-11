@@ -11,6 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     
   ],
   entryComponents: [FormularioComponent],
-  providers: [],
-  bootstrap: [AppComponent]
+ 
+bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+
