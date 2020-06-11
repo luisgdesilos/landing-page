@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.custom-modalbox1 {
+  justify-content: flex-end;
+  .mat-dialog-container {
+    width: 40% !important;
+  }
+
+  mat-dialog-container {
+    width: 40% !important;
+  }
+}
+
+.bg-light {
+    background-color: #f8f9faa6 !important;
+}
+
+@media (max-width: 765px) {
+  .custom-modalbox1 {
+    .mat-dialog-container {
+      width: 100% !important;
+    }
+  }
+}
